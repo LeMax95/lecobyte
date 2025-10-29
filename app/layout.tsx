@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'Max Leconiuc - Web Developer',
+	title: 'Lecobyte - Web Design & Development Studio',
 	description:
 		'Los Angeles web developer building modern websites, web apps, and tools with a personal, flexible approach that helps businesses grow online.',
 	keywords: [

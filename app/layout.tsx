@@ -15,8 +15,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
 	title: 'Max Leconiuc - Web Developer',
 	description:
-		'Welcome to my portfolio! I am a passionate web developer creating modern, responsive, and user-friendly websites. Specializing in frontend technologies and interactive user interfaces, I build engaging web experiences that make an impact.',
+		'Los Angeles web developer building modern websites, web apps, and tools with a personal, flexible approach that helps businesses grow online.',
 	keywords: [
+		'Web Ddesign',
+		'Web Designer',
+		'Shopify',
+		'Wordpress',
 		'Web Developer',
 		'Frontend Developer',
 		'React Developer',
@@ -36,16 +40,16 @@ export const metadata: Metadata = {
 	authors: [{ name: 'Max Leconiuc' }],
 	creator: 'Max Leconiuc',
 	openGraph: {
-		title: 'Max Leconiuc - Web Developer Portfolio',
-		description: 'Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.',
-		url: 'https://your-domain.com',
-		siteName: 'Max Leconiuc - Portfolio',
+		title: 'Lecobyte - Web Design & Development Studio',
+		description: 'Modern websites and web apps crafted in Los Angeles by Lecobyte — flexible, personal, and built to help your business grow.',
+		url: 'https://lecobyte.com',
+		siteName: 'Lecobyte - Web Design & Development Studio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: 'Max Leconiuc - Web Developer Portfolio',
+				alt: 'Lecobyte - Web Design & Development Studio',
 			},
 		],
 		locale: 'en_US',
@@ -53,8 +57,8 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Max Leconiuc - Web Developer',
-		description: 'Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.',
+		title: 'Lecobyte - Web Design & Development Studio',
+		description: 'Modern websites and web apps crafted in Los Angeles by Lecobyte — flexible, personal, and built to help your business grow.',
 		creator: '@yourusername',
 		images: ['/og-image.jpg'],
 	},

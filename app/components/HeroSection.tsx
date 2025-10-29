@@ -33,8 +33,8 @@ export const HeroSection = () => {
           <div className="relative inline-block px-4 sm:px-0">
             {/* Cooler glow: blue → indigo → violet (no pink) */}
             <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 rounded-2xl blur-xl opacity-50"></div>
-            <h1 className="relative text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-800 pb-2">
-              Max Leconiuc
+            <h1 className="relative text-4xl sm:text-7xl md:text-3xl lg:text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-800 pb-2">
+             Lecobyte - Web Design & Development Studio
             </h1>
           </div>
 
@@ -43,7 +43,7 @@ export const HeroSection = () => {
             <div className="flex flex-col items-center gap-4">
               <div className="flex items-center gap-3">
                 <span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
-                <h2 className="text-xl sm:text-2xl font-light tracking-wide text-blue-600">Web Developer</h2>
+                <h2 className="text-xl sm:text-2xl font-light tracking-wide text-blue-600">Web Design & Development</h2>
                 <span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
               </div>
               <p className="text-base sm:text-lg text-gray-600 max-w-2xl px-4 sm:px-0">
@@ -88,7 +88,7 @@ export const HeroSection = () => {
             {[
               { name: 'GitHub', icon: '🐙', href: 'https://github.com/LeMax95' },
               { name: 'LinkedIn', icon: '💼', href: 'https://www.linkedin.com/in/lema95/' },
-              { name: 'Reddit', icon: '👽', href: 'https://www.reddit.com/user/LeMa_95/' }, // fixed from bird to alien
+              { name: 'Reddit', icon: '👽', href: 'https://www.reddit.com/user/LeMa_95/' }, 
               { name: 'Blog', icon: '✍️', href: '#' },
             ].map((social) => (
               <a

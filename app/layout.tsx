@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 		siteName: 'Lecobyte - Web Design & Development Studio',
 		images: [
 			{
-				url: '/og-image.jpg',
+				url: 'public/High-Resolution-Logo-Black-on-White-Background.png',
 				width: 1200,
 				height: 630,
 				alt: 'Lecobyte - Web Design & Development Studio',
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
 		title: 'Lecobyte - Web Design & Development Studio',
 		description: 'Modern websites and web apps crafted in Los Angeles by Lecobyte — flexible, personal, and built to help your business grow.',
 		creator: '@yourusername',
-		images: ['/og-image.jpg'],
+		images: ['public/High-Resolution-Logo-Black-on-White-Background.png'],
 	},
 	robots: {
 		index: true,

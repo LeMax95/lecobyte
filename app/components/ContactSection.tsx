@@ -30,6 +30,7 @@ export const ContactSection = () => {
 						/>
 					</svg>
 					<span>Chisinau, Moldova</span>
+					<span>Beverly Hills,CA, USA</span>
 				</div>
 
 				{/* Contact Buttons */}
@@ -50,6 +51,23 @@ export const ContactSection = () => {
 						</svg>
 						Call: +373 76 736 298
 					</a>
+
+					{/* Phone Button */}
+					<a
+						href="tel:+18186968045"
+						className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg font-medium hover:opacity-90 transition-opacity"
+					>
+						<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								strokeWidth="2"
+								d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.518 4.554a1 1 0 01-.502 1.21l-1.93.965a11.042 11.042 0 005.517 5.517l.965-1.93a1 1 0 011.21-.502l4.554 1.518a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C8.268 21 3 15.732 3 9V5z"
+							/>
+						</svg>
+						Call: +1(818)-696-8045
+					</a>
+
 
 					{/* Email Button */}
 					<a

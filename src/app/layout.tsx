@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 
 import "./globals.css";
 import Navbar from "@/components/ui/Navbar";
@@ -8,9 +9,12 @@ import { StatusBar } from "@/components/StatusBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const GA_ID = "G-QGQHRJFSKF";
+
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/+$/, "") || "https://lecobyte.com"
+    process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/+$/, "") ||
+      "https://lecobyte.com"
   ),
 
   applicationName: "Lecobyte",
@@ -43,6 +47,20 @@ export default function RootLayout({
       <body
         className={`${inter.className} antialiased bg-white text-black selection:bg-[#FF4D00] selection:text-white`}
       >
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_ID}');
+          `}
+        </Script>
+
         <Navbar />
         <div className="min-h-screen pb-12">{children}</div>
         <Footer />
